@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESP32 Music Store</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; max-width: 600px; margin: 0 auto; }
+        .song-card { border: 1px solid #ddd; padding: 15px; margin-bottom: 10px; border-radius: 8px; }
+        code { background: #f4f4f4; padding: 2px 5px; }
+    </style>
+</head>
+<body>
+    <h1>Kho nhạc cho ESP32</h1>
+    <p>Upload nhạc vào thư mục <code>mp3/</code> và tạo file json trong <code>api/</code>.</p>
+    
+    <div class="song-card">
+        <h3>Chim Sâu - MCK</h3>
+        <audio controls>
+            <source src="mp3/chim-sau.mp3" type="audio/mpeg">
+        </audio>
+        <p>API URL: <a href="api/chim-sau.json">api/chim-sau.json</a></p>
+    </div>
+</body>
+</html>
